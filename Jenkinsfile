@@ -12,7 +12,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                script {
+                scpt {
                     echo 'Running the C++ program...'
                     sh "./PES1UG21CS341-1"
                 }
